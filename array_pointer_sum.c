@@ -9,7 +9,7 @@ int main()
     int n;
     int sum = 0;
     scanf("%d", &n);
-    char *s = calloc(12 * n, sizeof(char));
+    char *s = (char *)calloc(12 * n, sizeof(char));
     scanf(" %[^\n]", s);
 
     char *token = strtok(s, " ");

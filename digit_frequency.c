@@ -6,7 +6,7 @@
 int main()
 {
 
-    char *num = calloc(1000, sizeof(char));
+    char *num = (char *)calloc(1000, sizeof(char));
     char *original_ptr = num;
     int f_0 = 0, f_1 = 0, f_2 = 0, f_3 = 0, f_4 = 0, f_5 = 0, f_6 = 0, f_7 = 0, f_8 = 0, f_9 = 0;
     scanf(" %[^\n]", num);
